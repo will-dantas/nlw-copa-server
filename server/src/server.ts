@@ -20,7 +20,7 @@ async function bootstrap() {
   // Em produção isso precisa ser uma viarável de ambiente
 
   await fastify.register(jwt, {
-    secret: 'nlwcopa',
+    secret: 'will',
   })
 
   await fastify.register(poolRoutes)
